@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    //by default 16px for font-size, changed to 10px for :default
+    // so 1rem = 16px by default,1rem =10px
+    font-size: 62.5%;
+}
+
+@mixin flexproperty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@mixin code{
+    color: red;
+    font-size: 5rem;
+    letter-spacing: 2rem;
+}
+.main{
+    @include flexproperty;
+    h1{
+        @include code;
+        &:hover{
+            color: yellow;
+        }
+        &::after {
+            content: "Everyone";
+        }
+    }
+    p{
+        @include code;
+        &:hover{
+            color: pink;
+        }
+    }
+}

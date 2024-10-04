@@ -1,0 +1,17 @@
+nav{
+    background-color: aqua;
+    height: 80px;
+    
+    >ul{
+        list-style: none;
+    }
+    li{
+        background-color: red;
+    }
+}
+// nav > ul{
+//     list-style: none;
+// }
+// nav> ul > li {
+//     color: red;
+// }

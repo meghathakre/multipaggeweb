@@ -1,0 +1,15 @@
+// $color:rgb(243,250,45),rgb(54,65,39);
+// $color2:rgb(54,65,39);
+// $primarycolor:#fff;
+// @import "_colors";
+// @import"_colors1";
+
+body{
+
+    // background-color:$color1;
+    // background-color: nth($color,1);
+    // color:$primarycolor;
+    // color: nth($color,2);
+    background-color: $color3;
+    color: $primarycolor;
+}

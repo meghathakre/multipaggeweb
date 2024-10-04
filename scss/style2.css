@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main h1 {
+  color: red;
+  font-size: 5rem;
+  letter-spacing: 2rem;
+}
+.main h1:hover {
+  color: yellow;
+}
+.main h1::after {
+  content: "Everyone";
+}
+.main p {
+  color: red;
+  font-size: 5rem;
+  letter-spacing: 2rem;
+}
+.main p:hover {
+  color: pink;
+}/*# sourceMappingURL=style2.css.map */

@@ -1,0 +1,10 @@
+nav {
+  background-color: aqua;
+  height: 80px;
+}
+nav > ul {
+  list-style: none;
+}
+nav li {
+  background-color: red;
+}/*# sourceMappingURL=style1.css.map */
